@@ -1,10 +1,8 @@
 'use strict'
 
-
 const input = document.querySelector('.input');
 const button = document.querySelector('.button');
 const divka = document.querySelector('.div');
-
 
 function numMaker(numbers) {
 
@@ -48,5 +46,11 @@ function adder(final) {
 }
 
 button.addEventListener('click', () => {
+
+  while (divka.firstChild) {
+    divka.removeChild(divka.firstChild);
+  }
+
   numMaker(input.value);
+
 })

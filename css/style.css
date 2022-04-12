@@ -227,6 +227,10 @@ div {
 .license {
   margin-top: auto;
 }
+
+.input {
+  margin-bottom: 25px;
+}
 @supports (-webkit-appearance:none){
 
 }
