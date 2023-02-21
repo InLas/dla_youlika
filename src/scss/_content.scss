@@ -1,0 +1,37 @@
+.content {
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  &__text {
+    max-width: 500px;
+    margin: 20px 0;
+  }
+
+  &__input {
+    margin: 0 0 25px;
+    border: 2px solid $mainColor;
+  }
+
+  &__button {
+    margin: 0 0 50px;
+  }
+
+  &__div {
+    max-width: 500px;
+    margin: 0 0 50px;
+
+  }
+
+  &__total--error {
+    color: rgba($color: red, $alpha: 1);
+  }
+}
